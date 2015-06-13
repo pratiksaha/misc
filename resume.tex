@@ -2,7 +2,7 @@
 \usepackage[english]{babel}
 \setcounter{secnumdepth}{-1}
 \usepackage{wasysym, marvosym}
-\RequirePackage[hmargin=1.25cm,vmargin=1.25cm,twocolumn,columnsep=1.25cm]{geometry}
+\RequirePackage[hmargin=1.0cm,vmargin=1.0cm,twocolumn,columnsep=0.25cm]{geometry}
 \RequirePackage{bookman,etoolbox,hyperref,needspace,pifont,tabularx,xcolor}
 \pagestyle{empty}
 \setlength\parindent{0pt}
@@ -11,19 +11,13 @@
 \hypersetup{colorlinks,breaklinks,urlcolor=link,linkcolor=link}
 
 \begin{document}
-
-\twocolumn[
-    \begin{center}
-	\vskip-\lastskip
-	{\fontfamily{pzc}\selectfont\Huge Pratik Saha}
+{\fontfamily{pzc}\selectfont\Large Pratik Saha}
 	
-	{\Mobilefone}\hspace{4pt}{webversion}
+{\Mobilefone}\hspace{4pt}{webversion}
 	
-	{\ding{41}}\hspace{4pt}{\href{mailto:webversion}{webversion}}
+{\ding{41}}\hspace{4pt}{\href{mailto:webversion}{webversion}}
 	
-	{\Mundus}\hspace{4pt}{\href{https://github.com/pratiksaha}{https://github.com/pratiksaha}}
-	\bigskip
-    \end{center}]
+{\Mundus}\hspace{4pt}{\href{https://github.com/pratiksaha}{https://github.com/pratiksaha}}
 
 \section{Technical Skills}
 
@@ -33,45 +27,52 @@
 
 \hfill{\raggedleft\textit{VB.Net, SQL Server 2008, WCF, Perforce}}
 
-{\raggedright\textsc{Basic}} \hfill {\raggedleft\textit{SQLite, Git, GNU Octave, R, \LaTeX}}
+{\raggedright\textsc{Basic}} \hfill {\raggedleft\textit{PageRank, WordNet, Link Grammar}}
+
+\hfill{\raggedleft\textit{SQLite, Git, GNU Octave, R,  \LaTeX}}
 
 \section{Awards}
+
 {\raggedright\textsc{Rising to Occasion Award} \hfill {\raggedleft\textit{September 2014}}
 
 \begin{itemize}
-\item This is a quarterly peer to peer award
-\item Received this in recognition of completing a critical enhancement in a very short time
+\item This is a quarterly peer to peer award in recognition of completing a critical enhancement in a very short time
 \end{itemize}
 
 {\raggedright\textsc{Polestar Award} \hfill {\raggedleft\textit{December 2013}}
 
 \begin{itemize}
-
-\item This is a quarterly award for innovation in the business group
-\item Received this in recognition of proposing and developing \textit{Data Inconsistency Tool}
-\item This tool monitors various systems related to software delivery and fixes errors if any
-\item Reduced support tickets and saved hours in processing time per week  
+\item This is a quarterly award for innovation in the business group in recognition of proposing and developing \textit{Data Inconsistency Tool} which monitors various systems related to software delivery and fixes errors if any resulting in reducing support tickets and saved hours in processing time per week  
 \end{itemize}
 
 \section{Education}
 
-{\raggedright\textsc{\textbf{\href{http://www.msrit.edu/}{M S Ramaiah Institute of Technology}}}
+{\raggedright\textsc{\textbf{\href{http://www.msrit.edu/}{M S Ramaiah Institute of Technology}}}\hfill{\raggedleft\textit{Bengaluru}}
 
-{\raggedright\textsc{Bachelor of Engineering, Computer Science} \hfill {\raggedleft\textit{Bengaluru, India (2011)}}
+{\raggedright\textsc{Bachelor of Engineering, Computer Science} \hfill {\raggedleft\textit{(2011)}}
 
 \begin{itemize}
 \item Cumulative GPA : 9.09/10
 \item Studied the problems of word sense disambiguation and automatic text summarization in the area of natural language processing and attempted to combine the concepts to produce summaries of large text corpus with greater efficacy
+\item Syntactic parser Link Grammar Parser was used as the part-of-speech tagger
+\item Lexical database WordNet was used to find the semantic distances between words
+\item PageRank algorithm was used to find relative relatedness between words based on the semantic distance
 \item Other minor projects on visualizations, embedded systems and databases
 \end{itemize}
-
 {\raggedright\textsc{\textbf{Margaret (SN) English School}} \hfill {\raggedleft\textit{Siliguri, India}}
+
 {\raggedright\textit{West Bengal Council of Higher Secondary Education}}
-\begin{itemize}\item Aggregate : 82.57\% (2007)\end{itemize}
+\begin{itemize}
+\item Aggregate : 82.57\% (2007)
+\end{itemize}
+
 {\raggedright\textit{West Bengal Board of Secondary Education}}
-\begin{itemize}\item Aggregate : 80.77\% (2005)\end{itemize}
+\begin{itemize}
+\item Aggregate : 80.77\% (2005)
+\end{itemize}
 
 \section{Work Experience}
+
 {\raggedright\textsc{\textbf{\href{http://www.synopsys.com/}{Synopsys}}} \hfill {\raggedleft\textit{Bengaluru,India}}
 
 {\raggedright\textsc{R\&D Engineer, Sr I} \hfill {\raggedleft\textit{June 2015 - present}}
@@ -79,32 +80,34 @@
 {\raggedright\textsc{R\&D Engineer, II} \hfill {\raggedleft\textit{Sept 2013 - May 2015}}
 
 \begin{itemize}
-\item Developed parsers for domain specific languages
-\item Developed schedulers and methodologies for distributed systems
-\item Developed related monitoring, error recovery and analysis utilities
+\item Developed parsers for domain specific languages and associated grammars
+\item Developed algorithms to divide a task into parallel jobs and run these jobs using the sun grid engine handling issues related to race conditions, locking, concurrency
+\item Developed algorithms to schedule jobs based on incoming rate and regulating the rate of processing within acceptable turnaround times and avoiding starvations
+\item Developed RESTFul APIs, loggers, related monitoring, error recovery and analysis utilities
 \item Involved in code re-factoring, improving performance of tools and optimizing database queries
-\item Automated monitoring of grid machines and taking preventive actions 
+\item Automated monitoring of grid machines and taking preventive actions making the system fault tolerant
 \end{itemize}
 
 {\raggedright\textsc{\textbf{\href{http://sap.com/}{Sap}}} \hfill {\raggedleft\textit{Bengaluru,India}}
 
-{\raggedright\textsc{Services Quality Associate} {\textit{Apr 2013 - Sept 2013}}
+{\raggedright\textsc{Services Quality Associate} \hfill {\raggedleft\textit{Apr 2013 - Sept 2013}}
 
 {\raggedright\textsc{Software Engineer} \hfill {\raggedleft\textit{June 2011 - March 2013}}
 
 \begin{itemize}
-\item Developed applications for software delivery and product lifecycle management
-\item Developed windows services for automating the maintenance process of SAP products
+\item Developed workflow management system for software delivery and product lifecycle management
+\item Developed windows services for end to end automation of the maintenance process of SAP products
 \item Developed reporting and release tracking tools
 \item Involved in high level design decisions and suggested roadmap towards further improvements
+\item Assembly Project Lead for SAP NetWeaver Business Client, SBOP Analysis Office, SAP Business ByDesign
+\item POC for all SAP external softwares
 \end{itemize}
 
 \section{Others}
 
 \begin{itemize}
 \item Knowledge of agile methodologies like Scrum and tools like Atlassian JIRA, SAP CRM, Code Collaborator
-\item Development experience on Linux and Windows
-\item Experience on backend and GUI development
+\item Full Stack development experience on linux and windows platforms
 \item IBM Certified Database Associate (DB2 Fundamentals)
 \item Various online courses on Machine Learning and Data Analysis
 \item Actively participated in seminars on open source technologies and other activities at MSRIT
